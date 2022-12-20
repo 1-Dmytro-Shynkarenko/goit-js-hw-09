@@ -52,10 +52,10 @@ function createPromise(position, delay) {
 };
 
 // Один додатковий проміс, що виводиться в console.log зі значеннями з ДЗ
-createPromise(2, 1500)
-  .then(({ position, delay }) => {
-    console.log(`✅ Fulfilled promise ${position} in ${delay}ms`);
-  })
-  .catch(({ position, delay }) => {
-    console.log(`❌ Rejected promise ${position} in ${delay}ms`);
-  });
+//createPromise(2, 1500)
+  //.then(({ position, delay }) => {
+   // console.log(`✅ Fulfilled promise ${position} in ${delay}ms`);
+  //})
+  //.catch(({ position, delay }) => {
+  //  console.log(`❌ Rejected promise ${position} in ${delay}ms`);
+ // });
